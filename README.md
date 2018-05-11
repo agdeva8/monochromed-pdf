@@ -1,5 +1,7 @@
 ABOUT IT:
+
 This script converts any greyscaled/colored pdf to monochrome for better readliblity, Its user freindly script and anyone can easily use it. It can be more useful for college students where one wants to read the notes captured from camera or where one wants to make captured pdf look like scan copy. There are apps which does this work while capturing the pic but this script will save time while capturing.
+
 HOW TO USE:
 1. Download the script 
 2. open termainal ctrl+Alt+T 
