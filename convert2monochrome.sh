@@ -12,6 +12,7 @@ function myprog() {
 
 	[ -f "$pdf_path" ] && echo "pdf_path found" || echo "pdf_path not found"
 
+	rm -rf "/var/tmp/convert2monochrome" 
 	mkdir "/var/tmp/convert2monochrome"
 	cp "$pdf_path" "/var/tmp/convert2monochrome/temp.pdf"
 

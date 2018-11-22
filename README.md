@@ -4,7 +4,7 @@ This script converts any greyscaled/colored pdf to monochrome for better readlib
 
 HOW TO USE:
 1. Download the script 
-2. open termainal ctrl+Alt+T 
+2. open terminal (ctrl+Alt+T) 
 3. Now enter these commands in terminal; 
 4. cd ~/Downloads 
 5. unzip monochromed-pdf-master.zip 
@@ -12,3 +12,10 @@ HOW TO USE:
 7. chmod +x convert2monochrome.sh 
 8. ./convert2monochrome.sh 
 9. Now do as the script says :) 
+
+TROUBLE SHOOT:
+1. For error of the type: convert-im6.q16: not authorized `pdfFinal.pdf' @ error/constitute.c/WriteImage/1037.
+
+edit the following file: /etc/ImageMagick-6/policy.xml
+and set the permissions from none to read|write
+Replace: rights="none" to rights="read|write"
