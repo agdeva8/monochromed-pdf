@@ -17,5 +17,5 @@ TROUBLE SHOOT:
 1. For error of the type: convert-im6.q16: not authorized `pdfFinal.pdf' @ error/constitute.c/WriteImage/1037.
 
 edit the following file: /etc/ImageMagick-6/policy.xml
-and set the permissions from none to read|write
+and set the permissions from none to read|write i.e., 
 Replace: rights="none" to rights="read|write"
