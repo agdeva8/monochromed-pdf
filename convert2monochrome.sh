@@ -16,7 +16,7 @@ function myprog() {
 	mkdir "/var/tmp/convert2monochrome"
 	cp "$pdf_path" "/var/tmp/convert2monochrome/temp.pdf"
 
-	cd /var/tmp/convert2monochrome/
+	cd "/var/tmp/convert2monochrome/"
 	pdfFile=temp.pdf
 
 	inputImage1="extracted-images"
